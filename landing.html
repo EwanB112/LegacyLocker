@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/landing/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script type="module" src="landing.js"></script>
+    <div id="blur">
+        <h5 id="header">Legacy Locker</h5>
+        <h2 id="phrase">Your life, Your Story, Your Legacy</h2>
+        <div class="auth">
+            <button id="signUpButt">SignUp</button>
+            <button id="loginButt">Login</button>
+        </div>
+        <p id="description">At Legacy Locker, we believe that everyone has a story to tell, and that our lives and experiences are worth sharing with future generations. Our platform allows users to upload photos, videos, documents, and other digital media to create a unique and enduring legacy that can be accessed long after they are gone. With Legacy Locker, you can share your life's journey, your hopes and dreams, your wisdom and advice, and your love with those who matter most. Join us and leave a lasting legacy for your family, friends and the rest of humanity to cherish and remember forever.</p>
+    </div>
+    <div class="signUp">
+        <form id="signUpForm" style="display: none;">
+            <img src="/src/landing/img/close_FILL0_wght400_GRAD0_opsz48.png" alt="" id="signUpClose">
+            <h3>SignUp</h3>
+            <label for="signUpName">Name</label>
+            <input type="name" placeholder="Full Name" id="signUpName">
+            <label for="signUpEmail">Email</label>
+            <input type="email" placeholder="Email" id="signUpEmail">
+            <label for="signUpPassword">Password</label>
+            <input type="password" placeholder="Password" id="signUpPassword">
+            <button id="signUpSubmit">Submit</button>
+        </form>
+    </div>
+    <form id="loginForm" style="display: none;">
+        <img src="/src/landing/img/close_FILL0_wght400_GRAD0_opsz48.png" alt="" id="loginClose">
+        <h3>Login</h3>
+        <label for="loginEmail">Email</label>
+        <input type="email" placeholder="Email" id="loginEmail">
+        <label for="loginPassword">Password</label>
+        <input type="password" placeholder="Password" id="loginPassword">
+        <button id="loginSubmit">Submit</button>
+    </form>
+    <form id="verifyForm" style="display: none;">
+        <h3>Verify</h3>
+        <label for="verifyEmail"></label>
+        <label for="verificationCode">Code</label>
+        <input type="number" placeholder="Verification Code" id="verifyCode">
+        <button id="verifySubmit">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+* {
+    font-family: 'Unbounded', cursive;
+    background-color: #e6e6e6;
+}
+
+#header {
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+#phrase {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Unbounded', cursive;
+}
+
+img {
+    margin-top: -20px;
+    float: right;
+    cursor: pointer;
+}
+
+.auth {
+    text-align: center;
+}
+
+#signUpButt {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#signUpButt:hover {
+    background-color: #8be28b;
+}
+
+#loginButt {
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#loginButt:hover {
+    background-color: #6767ff;
+}
+
+#signUpForm {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+/*signUp*/
+#signUpForm * {
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    background-color: transparent;
+}
+
+label {
+    display: block;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Unbounded', cursive;
+    background-color: transparent;
+}
+
+#signUpName {
+    font-family: 'Unbounded', cursive;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8f7f7;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#signUpEmail {
+    font-family: 'Unbounded', cursive;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8f7f7;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#signUpPassword {
+    font-family: 'Unbounded', cursive;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8f7f7;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#signUpSubmit {
+    margin-top: 60px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 10px;
+    outline-color: black;
+}
+
+#signUpSubmit:hover{
+    background-color: #8be28b;
+}
+
+/*login*/
+#loginForm {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+#loginForm * {
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+
+#loginEmail {
+    font-family: 'Unbounded', cursive;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8f7f7;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#loginPassword {
+    font-family: 'Unbounded', cursive;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8f7f7;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#loginSubmit {
+    margin-top: 60px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #6767ff;
+    cursor: pointer;
+}
+
+
+/*verify*/
+#verifyForm {
+    height: 520px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+
+#verifyForm * {
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+#verifyCode {
+    font-family: 'Unbounded', cursive;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: #f8f7f7;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#verifySubmit {
+    margin-top: 60px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #8be28b;
+    cursor: pointer;
+}
+
+#description{
+    margin-top: 160px;
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
